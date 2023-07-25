@@ -22,7 +22,7 @@ stroke_df =pd.read_csv( '/content/brain_stroke.csv ')
 
 **Confusion Matrix**
 
-A confusion matrix was generated to discern how well the model fares in making predictions. It indicated a relatively high false positive rate (30%) and a disappointing true negative rate (70%). If the treatment's side effects were severe, this could develop into an issue. 
+A confusion matrix was generated to discern how well the model fares in making predictions. It indicated a relatively high false positive rate (30%) and a true negative rate (70%). If the treatment's side effects were severe, this could develop into an issue. 
 
 However, the side effects of stroke medication, as identified from several sources, include mild symptoms like diarrhoea, indigestion, nausea, and stomach pain. 
 
